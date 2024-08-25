@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Libra Marketing</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">LibraMarketing</div>
+        <ul class="menu">
+            <li><a href="#home"> <i class="fas fa-home"></i> <span class="text">Home</span> </a> </li>
+            <li><a href="#about"> <i class="fas fa-cogs"></i> <span class="text">About</span> </a></li>
+            <li><a href="#services"> <i class="fas fa-info-circle"></i><span class="text">Services</span> </a></li>
+            <li><a href="#contact"> <i class="fas fa-envelope"></i><span class="text">Contact</span> </a></li>
+        </ul>
+        <a href="#contact" class="button-29">Contact Us</a>
+    </nav>
+
+    <section id="home">
+        <div class="left">
+<h1>Welcome to LibraMarketing Agency</h1>
+<p>We specialize in google ads, facebook ads, copywriting, etc</p>
+<a href="#contact" class="button-29">Get Marketing Services</a>
+        </div>
+
+        <div class="right"><img src="heroimage.jpg" alt=""></div>
+    </section>
+
+    <section id="about">
+        <h2 data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">About</h2>
+        <p data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">The team at Tattva epitomises these elements while consciously delivering Supernova results, on a galactic scale, to our clients.
+<br>
+            Founded in 2010, Tattva Creations is a digital-first, integrated marketing company providing consultancy and solutions to industry-leading brands and businesses. A young dynamic team, we focus on a comprehensive 360-degree approach to marketing and brand communications. We work closely with brand teams to build a custom marketing outreach that aligns with their business goals. Our vision is to connect and communicate in an evolving world with no boundaries, through a strong digital-first approach.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <div class="container">
+<div class="card" data-aos="zoom-in-down">
+     <h3>Google Ads</h3>
+</div>
+
+<div class="card" data-aos="zoom-in-down">
+    <h3>Facebook Ads</h3>
+</div>
+
+<div class="card" data-aos="zoom-in-down">
+    <h3>Instagram Reels</h3>
+</div>
+
+<div class="card" data-aos="zoom-in-down">
+    <h3>Copywriting</h3>
+</div>
+        </div>
+
+    </section>
+    <section id="contact">
+        <div id="contact-form">
+            <div>
+                <h1>Nice to Meet You!</h1> 
+                <h4>Have a question or just want to get in touch? Let's chat.</h4> 
+            </div>
+                <p id="failure">Oopsie...message not sent.</p>  
+                <p id="success">Your message was sent successfully. Thank you!</p>
+        
+                   <form method="post" action="/">
+                    <div>
+                      <label for="name">
+                          <span class="required">Name: *</span> 
+                          <input type="text" id="name" name="name" value="" placeholder="Your Name" required="required" tabindex="1" autofocus="autofocus" />
+                      </label> 
+                    </div>
+                    <div>
+                      <label for="email">
+                          <span class="required">Email: *</span>
+                          <input type="email" id="email" name="email" value="" placeholder="Your Email" tabindex="2" required="required" />
+                      </label>  
+                    </div>
+                    <div>		          
+                      <label for="subject">
+                      <span>Subject: </span>
+                          <select id="subject" name="subject" tabindex="4">   
+                             <option value="hello">Product Price Question</option>
+                             <option value="quote">Where are my dragons?!</option>  
+                             <option value="general">- Valar Morghulis - </option>
+                          </select>
+                      </label>
+                    </div>
+                    <div>		          
+                      <label for="message">
+                          <span class="required">Message: *</span> 
+                          <textarea id="message" name="message" placeholder="Please write your message here." tabindex="5" required="required"></textarea> 
+                      </label>  
+                    </div>
+                    <div>		           
+                      <button name="submit" type="submit" id="submit" >SEND</button> 
+                    </div>
+                   </form>
+        
+            </div>
+       
+    </section>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 300, // values from 0 to 3000, with step 50ms
+        duration: 500, // values from 0 to 3000, with step 50ms
+      });
+    </script>
+</body>
+
+</html>
